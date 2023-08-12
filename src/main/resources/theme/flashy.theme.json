@@ -396,7 +396,7 @@
       "modifiedItemForeground": "cyan",
       "hoverBackground": "bg3",
       "hoverInactiveBackground": "bg3",
-      "rowHeight": 20,
+      "rowHeight": 24,
       "selectionForeground": "fg1",
       "selectionBackground": "bg3",
       "selectionInactiveBackground": "bg3"
