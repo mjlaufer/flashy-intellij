@@ -28,8 +28,9 @@
     "yellowDiag": "#a19057",
     "cyanDiag": "#639493",
     "redDiff": "#3a2723",
+    "yellowDiff": "#3a3425",
     "greenDiff": "#2c3730",
-    "cyanDiff": "#34463a"
+    "cyanDiff": "#283232"
   },
   "icons": {
     "ColorPalette": {
@@ -42,7 +43,7 @@
       "Actions.GreyInline.Dark": "#818181",
       "Objects.BlackText": "#1b1b1b",
       "Objects.Red": "#f98660",
-      "Objects.RedStatus": "#f98660",
+      "Objects.RedStatus": "#bf6a50",
       "Objects.Yellow": "#cdb55c",
       "Objects.YellowDark": "#a19057",
       "Objects.Green": "#74c792",
@@ -175,18 +176,20 @@
       "underlinedTabBackground": "bg1"
     },
     "FileColor": {
-      "Blue": "bg2",
-      "Gray": "bg2",
-      "Green": "bg2",
-      "Yellow": "bg2",
-      "Rose": "bg2",
-      "Violet": "bg2"
+      "Blue": "cyanDiff",
+      "Green": "greenDiff",
+      "Yellow": "yellowDiff",
+      "Rose": "redDiff",
+      "Violet": "#352d42",
+      "Orange": "#403224"
     },
-    "FormattedTextField.caretForeground": "fg1",
-    "FormattedTextField.inactiveBackground": "fg3",
-    "FormattedTextField.inactiveForeground": "fg2",
-    "FormattedTextField.selectionBackground": "bg3",
-    "FormattedTextField.selectionForeground": "fg1",
+    "FormattedTextField": {
+      "caretForeground": "fg1",
+      "inactiveBackground": "fg3",
+      "inactiveForeground": "fg2",
+      "selectionBackground": "bg3",
+      "selectionForeground": "fg1"
+    },
     "Label": {
       "disabledForeground": "fg3",
       "selectedForeground": "fg1"
@@ -197,8 +200,10 @@
       "pressedForeground": "blue",
       "visitedForeground": "blue"
     },
-    "List.selectionBackground": "bg3",
-    "List.selectionInactiveForeground": "fg1",
+    "List": {
+      "selectionBackground": "bg3",
+      "selectionInactiveForeground": "fg1"
+    },
     "Menu": {
       "borderColor": "bg3",
       "disabledBackground": "fg3",
@@ -214,9 +219,20 @@
     "NavBar.borderColor": "bg3",
     "Notification": {
       "errorBackground": "redDiff",
-      "errorBorderColor": "redDiag"
+      "errorBorderColor": "redDiag",
+      "ToolWindow": {
+        "informativeBackground": "cyanDiff",
+        "informativeBorderColor": "cyanDiag",
+        "warningBackground": "yellowDiff",
+        "warningBorderColor": "yellowDiag",
+        "errorBackground": "redDiff",
+        "errorBorderColor": "redDiag"
+      }
     },
     "OptionPane.messageForeground": "fg1",
+    "ParameterInfo": {
+      "currentParameterForeground": "orange"
+    },
     "PasswordField": {
       "caretForeground": "fg1",
       "inactiveForeground": "fg2"
@@ -229,13 +245,15 @@
         "installFillForeground": "bg1",
         "installFillBackground": "green",
         "updateForeground": "bg1",
-        "updateBackground": "yellow"
+        "updateBackground": "orange"
       },
-      "SearchField.borderColor": "bg3",
       "SectionHeader.background": "bg3",
-      "Tab.hoverBackground": "bg3",
-      "Tab.selectedForeground": "fg1",
-      "Tab.selectedBackground": "bg1",
+      "SearchField.borderColor": "bg3",
+      "Tab": {
+        "hoverBackground": "bg3",
+        "selectedForeground": "fg1",
+        "selectedBackground": "bg1"
+      },
       "lightSelectionBackground": "bg3",
       "tagBackground": "bg3",
       "tagForeground": "fg1"
@@ -290,12 +308,14 @@
       }
     },
     "SearchEverywhere": {
-      "Tab.selectedBackground": "bg1",
-      "Tab.selectedForeground": "fg1"
+      "Tab": {
+        "selectedBackground": "bg1",
+        "selectedForeground": "fg1"
+      }
     },
     "SearchMatch": {
-      "startBackground": "yellow",
-      "endBackground": "yellow"
+      "startBackground": "orange",
+      "endBackground": "orange"
     },
     "Slider.tickColor": "fg2",
     "SpeedSearch": {
@@ -315,8 +335,10 @@
       "hoverColor": "bg3",
       "underlineColor": "blueBright"
     },
-    "Table.gridColor": "fg3",
-    "Table.stripeColor": "bg3",
+    "Table": {
+      "gridColor": "fg3",
+      "stripeColor": "bg3"
+    },
     "TableHeader.bottomSeparatorColor": "bg3",
     "TextArea": {
       "background": "bg1",
@@ -351,38 +373,46 @@
       }
     },
     "ToolWindow": {
-      "Button.hoverBackground": "bg2",
-      "Button.selectedBackground": "bg1",
-      "Button.selectedForeground": "fg1",
+      "Button": {
+        "hoverBackground": "bg2",
+        "selectedBackground": "bg1",
+        "selectedForeground": "fg1"
+      },
       "Header.inactiveBackground": "bg2",
       "HeaderCloseButton.background": "bg1",
-      "HeaderTab.hoverBackground": "bg3",
-      "HeaderTab.hoverInactiveBackground": "bg3",
-      "HeaderTab.inactiveUnderlineColor": "blue",
-      "HeaderTab.underlineColor": "blueBright",
-      "HeaderTab.underlinedTabBackground": "bg1",
-      "HeaderTab.underlinedTabInactiveBackground": "bg1"
+      "HeaderTab": {
+        "hoverBackground": "bg3",
+        "hoverInactiveBackground": "bg3",
+        "inactiveUnderlineColor": "blue",
+        "underlineColor": "blueBright",
+        "underlinedTabBackground": "bg1",
+        "underlinedTabInactiveBackground": "bg1"
+      }
     },
     "Tree": {
       "errorForeground": "red",
       "foreground": "fg1",
       "hash": "fg3",
-      "modifiedItemForeground": "green",
+      "modifiedItemForeground": "cyan",
       "hoverBackground": "bg3",
       "hoverInactiveBackground": "bg3",
+      "rowHeight": 20,
       "selectionForeground": "fg1",
       "selectionBackground": "bg3",
-      "selectionInactiveBackground": "bg3",
-      "selectionInactiveForeground": "fg1"
+      "selectionInactiveBackground": "bg3"
     },
     "ValidationTooltip": {
       "errorBackground": "redDiff",
-      "errorBorderColor": "redDiag"
+      "errorBorderColor": "redDiag",
+      "warningBackground": "yellowDiff",
+      "warningBorderColor": "yellowDiag"
     },
     "VersionControl": {
       "FileHistory.Commit.selectedBranchBackground": "bg3",
-      "Log.Commit.currentBranchBackground": "bg3",
-      "Log.Commit.unmatchedForeground": "red"
+      "Log.Commit": {
+        "currentBranchBackground": "bg3",
+        "unmatchedForeground": "red"
+      }
     },
     "WelcomeScreen": {
       "background": "bg1",

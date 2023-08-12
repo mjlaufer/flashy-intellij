@@ -12,7 +12,7 @@
         <option name="FILESTATUS_COPIED" value="74c792" />
         <option name="FILESTATUS_DELETED" value="cdb55c" />
         <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f98660" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="818181" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="a19057" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f98660" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f98660" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f98660" />
@@ -21,6 +21,7 @@
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="66b9b7" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="66b9b7" />
         <option name="FILESTATUS_RENAMED" value="66b9b7" />
+        <option name="FILESTATUS_UNKNOWN" value="f98660" />
         <option name="FILESTATUS_addedOutside" value="74c792" />
         <option name="FILESTATUS_changelistConflict" value="f98660" />
         <option name="FILESTATUS_modifiedOutside" value="66b9b7" />
@@ -43,6 +44,11 @@
         <option name="SEPARATOR_BELOW_COLOR" value="353535" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="818181" />
         <option name="TEARLINE_COLOR" value="353535" />
+        <option name="VCS_ANNOTATIONS_COLOR_1" value="283232" />
+        <option name="VCS_ANNOTATIONS_COLOR_2" value="283232" />
+        <option name="VCS_ANNOTATIONS_COLOR_3" value="2c3730" />
+        <option name="VCS_ANNOTATIONS_COLOR_4" value="3a3425" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="3a2723" />
         <option name="WHITESPACES" value="c6c6c6" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="818181" />
     </colors>
