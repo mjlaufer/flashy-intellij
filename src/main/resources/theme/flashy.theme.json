@@ -59,6 +59,9 @@
       "Checkbox.Background.Disabled.Dark": "#262626",
       "Checkbox.Border.Default.Dark": "#353535",
       "Checkbox.Border.Disabled.Dark": "#353535",
+      "Checkbox.Focus.Thin.Default": "#e4a452",
+      "Checkbox.Focus.Thin.Selected": "#e4a452",
+      "Checkbox.Focus.Wide": "#e4a452",
       "Checkbox.Focus.Thin.Default.Dark": "#e4a452",
       "Checkbox.Focus.Thin.Selected.Dark": "#e4a452",
       "Checkbox.Focus.Wide.Dark": "#e4a452",
@@ -104,12 +107,12 @@
     "Button": {
       "default": {
         "focusColor": "orange",
-        "focusedBorderColor": "orange",
+        "focusedBorderColor": "bg2",
         "foreground": "bg1",
         "startBackground": "blue",
         "endBackground": "blue",
-        "startBorderColor": "blueBright",
-        "endBorderColor": "blueBright"
+        "startBorderColor": "blue",
+        "endBorderColor": "blue"
       },
       "disabledBorderColor": "bg3",
       "disabledText": "fg3",
@@ -143,7 +146,7 @@
     "Component": {
       "borderColor": "bg3",
       "disabledBorderColor": "bg3",
-      "focusedBorderColor": "orange",
+      "focusedBorderColor": "bg2",
       "focusColor": "orange",
       "iconColor": "fg1",
       "hoverIconColor": "fg1",
