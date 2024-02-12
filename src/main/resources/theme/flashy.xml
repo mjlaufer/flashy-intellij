@@ -1012,6 +1012,11 @@
                 <option name="FOREGROUND" value="66b9b7" />
             </value>
         </option>
+        <option name="XML_CUSTOM_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="6fb1e7" />
+            </value>
+        </option>
         <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
         <option name="XML_ENTITY_REFERENCE">
             <value>
