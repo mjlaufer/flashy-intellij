@@ -23,6 +23,10 @@ This is a port of [mjlaufer/flashy.nvim](https://www.github.com/mjlaufer/flashy.
   - [Plugin signing](#plugin-signing) with your private certificate
   - [Publishing the plugin](#publishing-the-plugin) with the Gradle IntelliJ Plugin
 
+## Getting started
+
+Clone this project, and set the proper <kbd>SDK</kbd> to Java in version `17` within the [Project Structure settings][docs:project-structure-settings].
+
 ## Gradle configuration
 
 The recommended method for plugin development involves using the [Gradle][gradle] setup with the [gradle-intellij-plugin][gh:gradle-intellij-plugin] installed.
@@ -37,6 +41,60 @@ This project includes a Gradle configuration already set up. This provides:
 - Integration with the [gradle-intellij-plugin][gh:gradle-intellij-plugin] for smoother development.
 - Integration with the [gradle-changelog-plugin][gh:gradle-changelog-plugin], which automatically patches the change notes based on the `CHANGELOG.md` file.
 - [Plugin publishing][docs:publishing] using the token.
+
+## Project structure
+
+```
+.
+├── .github/                GitHub Actions workflows and Dependabot configuration files
+├── .run/                   Predefined Run/Debug Configurations
+├── build/                  Output build directory
+├── gradle
+│   ├── wrapper/            Gradle Wrapper
+│   └── libs.versions.toml  Gradle version catalog
+├── src                     Plugin sources
+│   └── main
+│       └── resources/      Resources - configuration, icons, messages
+│           ├── META-INF/   Plugin configuration file - plugin.xml
+│           └── theme/      Theme files - flashy.theme.json, flashy.xml
+├── .gitignore              Git ignoring rules
+├── build.gradle.kts        Gradle configuration
+├── CHANGELOG.md            Full change history
+├── gradle.properties       Gradle configuration properties
+├── gradlew                 *nix Gradle Wrapper script
+├── gradlew.bat             Windows Gradle Wrapper script
+├── LICENSE                 License, MIT by default
+├── qodana.yml              Qodana configuration file
+├── README.md               README
+└── settings.gradle.kts     Gradle project settings
+```
+
+## Plugin configuration file
+
+The plugin configuration file is a [plugin.xml][file:plugin.xml] file located in the `src/main/resources/META-INF` directory.
+It provides general information about the plugin, its dependencies, extensions, and listeners.
+
+```xml
+<idea-plugin>
+  <id>org.jetbrains.plugins.template</id>
+  <name>Template</name>
+  <vendor>JetBrains</vendor>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <resource-bundle>messages.MyBundle</resource-bundle>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow factoryClass="..." id="..."/>
+  </extensions>
+
+  <applicationListeners>
+    <listener class="..." topic="..."/>
+  </applicationListeners>
+</idea-plugin>
+```
+
+You can read more about this file in the [Plugin Configuration File][docs:plugin.xml] section of the IntelliJ Platform Plugin SDK documentation.
 
 ## Predefined Run/Debug configurations
 
@@ -191,11 +249,14 @@ You can get that token in your JetBrains Marketplace profile dashboard in the [M
 > Before using the automated deployment process, it is necessary to manually create a new plugin in JetBrains Marketplace to specify options like the license, repository URL, etc.
 > Please follow the [Publishing a Plugin][docs:publishing] instructions.
 
+[docs:plugin.xml]: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html?from=IJPluginTemplate
 [docs:publishing]: https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate
 [docs:release-channel]: https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate#specifying-a-release-channel
 [docs:plugin-signing]: https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate
+[docs:project-structure-settings]: https://www.jetbrains.com/help/idea/project-settings-and-structure.html
 
 [file:libs.versions.toml]: ./gradle/libs.versions.toml
+[file:plugin.xml]: ./src/main/resources/META-INF/plugin.xml
 
 [gh:actions]: https://help.github.com/en/actions
 [gh:build]: https://github.com/mjlaufer/flashy-intellij/actions?query=workflow%3ABuild
