@@ -101,7 +101,7 @@ All plugins and dependencies used by Gradle are managed with [Gradle version cat
 > and define the dependency in the [`gradle/libs.versions.toml`][file:libs.versions.toml] file as follows:
 > ```toml
 > [versions]
-> annotations = "24.0.1"
+> annotations = "24.1.0"
 >
 > [libraries]
 > annotations = { group = "org.jetbrains", name = "annotations", version.ref = "annotations" }
