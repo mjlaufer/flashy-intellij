@@ -27,6 +27,12 @@
         <option name="FILESTATUS_modifiedOutside" value="6fb1e7" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="e4a452" />
         <option name="GUTTER_BACKGROUND" value="1b1b1b" />
+        <option name="HTML_TAG_TREE_LEVEL5" value="8cbbe6"/>
+        <option name="HTML_TAG_TREE_LEVEL4" value="7bc2c1"/>
+        <option name="HTML_TAG_TREE_LEVEL3" value="8ad7a5"/>
+        <option name="HTML_TAG_TREE_LEVEL2" value="dec573"/>
+        <option name="HTML_TAG_TREE_LEVEL1" value="ff9474"/>
+        <option name="HTML_TAG_TREE_LEVEL0" value="ed9fc4"/>
         <option name="INDENT_GUIDE" value="353535" />
         <option name="INFORMATION_HINT" value="263645" />
         <option name="LINE_NUMBERS_COLOR" value="818181" />
@@ -86,12 +92,17 @@
         </option>
         <option name="BREADCRUMBS_DEFAULT">
             <value>
-                <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FOREGROUND" value="a0a0a0" />
             </value>
         </option>
         <option name="BREADCRUMBS_HOVERED">
             <value>
                 <option name="FOREGROUND" value="e4a452" />
+            </value>
+        </option>
+        <option name="BREADCRUMBS_INACTIVE">
+            <value>
+                <option name="FOREGROUND" value="818181" />
             </value>
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
