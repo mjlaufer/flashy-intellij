@@ -283,6 +283,11 @@
                 <option name="FOREGROUND" value="bf9af7" />
             </value>
         </option>
+        <option name="com.jetbrains.cmake.COMMAND">
+            <value>
+                <option name="FOREGROUND" value="6fb1e7" />
+            </value>
+        </option>
         <option name="CTRL_CLICKABLE">
             <value>
                 <option name="FOREGROUND" value="bf9af7" />
