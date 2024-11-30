@@ -350,7 +350,7 @@
         </option>
         <option name="DEFAULT_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FOREGROUND" value="a0a0a0" />
             </value>
         </option>
         <option name="DEFAULT_CLASS_NAME">
@@ -416,7 +416,6 @@
         <option name="DEFAULT_GLOBAL_VARIABLE">
             <value>
                 <option name="FOREGROUND" value="c6c6c6" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="DEFAULT_IDENTIFIER">
@@ -600,6 +599,66 @@
                 <option name="FOREGROUND" value="f98660" />
             </value>
         </option>
+        <option name="GO_BUILTIN_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="e4a452" />
+            </value>
+        </option>
+        <option name="GO_BUILTIN_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="6fb1e7" />
+            </value>
+        </option>
+        <option name="GO_BUILTIN_TYPE_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="66b9b7" />
+            </value>
+        </option>
+        <option name="GO_BUILTIN_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="e4a452" />
+            </value>
+        </option>
+        <option name="GO_COMMENT_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="6090b9" />
+            </value>
+        </option>
+        <option name="GO_EXPORTED_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="6fb1e7" />
+            </value>
+        </option>
+        <option name="GO_LOCAL_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="6fb1e7" />
+            </value>
+        </option>
+        <option name="GO_METHOD_RECEIVER">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+            </value>
+        </option>
+        <option name="GO_PACKAGE">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+            </value>
+        </option>
+        <option name="GO_SHADOWING_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+            </value>
+        </option>
+        <option name="GO_TYPE_REFERENCE">
+            <value>
+                <option name="FOREGROUND" value="66b9b7" />
+            </value>
+        </option>
+        <option name="GO_TYPE_SPECIFICATION">
+            <value>
+                <option name="FOREGROUND" value="66b9b7" />
+            </value>
+        </option>
         <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
         <option name="HTML_ATTRIBUTE_VALUE">
             <value>
@@ -764,13 +823,11 @@
         <option name="LOG_ERROR_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="bf6a50" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="LOG_WARNING_OUTPUT">
             <value>
                 <option name="FOREGROUND" value="a19057" />
-                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="LOG_EXPIRED_ENTRY">
