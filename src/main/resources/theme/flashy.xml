@@ -966,6 +966,17 @@
             </value>
         </option>
         <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
+        <option name="PROPERTIES.KEY">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+            </value>
+        </option>
+        <option name="PROPERTIES.KEY_VALUE_SEPARATOR">
+            <value>
+                <option name="FOREGROUND" value="f67ebb" />
+            </value>
+        </option>
+        <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
         <option name="REGEXP.BRACES" baseAttributes="DEFAULT_BRACES" />
         <option name="REGEXP.BRACKETS" baseAttributes="DEFAULT_BRACKETS" />
         <option name="REGEXP.CHAR_CLASS" baseAttributes="74c792" />
