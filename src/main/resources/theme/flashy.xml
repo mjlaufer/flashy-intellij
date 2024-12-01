@@ -217,10 +217,9 @@
                 <option name="FOREGROUND" value="a0a0a0" />
             </value>
         </option>
-        <option name="CSS.BAD_CHARACTER">
+        <option name="CSS.AMPERSAND">
             <value>
-                <option name="EFFECT_COLOR" value="f98660" />
-                <option name="EFFECT_TYPE" value="2" />
+                <option name="FOREGROUND" value="f67ebb" />
             </value>
         </option>
         <option name="CSS.CLASS_NAME">
@@ -235,12 +234,17 @@
         </option>
         <option name="CSS.COLON">
             <value>
-                <option name="FOREGROUND" value="818181" />
+                <option name="FOREGROUND" value="a0a0a0" />
             </value>
         </option>
         <option name="CSS.COLOR">
             <value>
-                <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FOREGROUND" value="74c792" />
+            </value>
+        </option>
+        <option name="CSS.DOT">
+            <value>
+                <option name="FOREGROUND" value="f67ebb" />
             </value>
         </option>
         <option name="CSS.FUNCTION">
@@ -266,6 +270,11 @@
         <option name="CSS.PROPERTY_VALUE">
             <value>
                 <option name="FOREGROUND" value="74c792" />
+            </value>
+        </option>
+        <option name="CSS.PSEUDO">
+            <value>
+                <option name="FOREGROUND" value="f67ebb" />
             </value>
         </option>
         <option name="CSS.TAG_NAME">
@@ -765,7 +774,7 @@
         </option>
         <option name="JS.GLOBAL_VARIABLE">
             <value>
-                <option name="FOREGROUND" value="a0a0a0" />
+                <option name="FOREGROUND" value="c6c6c6" />
             </value>
         </option>
         <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -1056,6 +1065,11 @@
         <option name="TS.PRIMITIVE.TYPES">
             <value>
                 <option name="FOREGROUND" value="66b9b7" />
+            </value>
+        </option>
+        <option name="TS.TYPE_GUARD">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
             </value>
         </option>
         <option name="TS.TYPE_PARAMETER">
