@@ -633,6 +633,11 @@
                 <option name="FOREGROUND" value="6090b9" />
             </value>
         </option>
+        <option name="GO_COLON">
+            <value>
+                <option name="FOREGROUND" value="f67ebb" />
+            </value>
+        </option>
         <option name="GO_EXPORTED_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="6fb1e7" />
@@ -748,6 +753,11 @@
         <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
         <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
         <option name="JS.CLASS">
+            <value>
+                <option name="FOREGROUND" value="66b9b7" />
+            </value>
+        </option>
+        <option name="JS.DOC_TYPE">
             <value>
                 <option name="FOREGROUND" value="66b9b7" />
             </value>
