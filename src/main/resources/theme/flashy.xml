@@ -4,26 +4,26 @@
         <option name="CARET_COLOR" value="c6c6c6" />
         <option name="CARET_ROW_COLOR" value="262626" />
         <option name="CONSOLE_BACKGROUND_KEY" value="1b1b1b" />
-        <option name="DELETED_LINES_COLOR" value="bf6a50" />
+        <option name="DELETED_LINES_COLOR" value="db5454" />
         <option name="DIFF_SEPARATORS_BACKGROUND" value="353535" />
         <option name="DOCUMENTATION_COLOR" value="262626" />
-        <option name="ERROR_HINT" value="3a2723" />
+        <option name="ERROR_HINT" value="422323" />
         <option name="FILESTATUS_ADDED" value="74c792" />
         <option name="FILESTATUS_COPIED" value="74c792" />
         <option name="FILESTATUS_DELETED" value="cdb55c" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f98660" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="f87171" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="a19057" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f98660" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f98660" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f98660" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="f87171" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="f87171" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="f87171" />
         <option name="FILESTATUS_MERGED" value="f67ebb" />
         <option name="FILESTATUS_MODIFIED" value="6fb1e7" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="6fb1e7" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="6fb1e7" />
         <option name="FILESTATUS_RENAMED" value="66b9b7" />
-        <option name="FILESTATUS_UNKNOWN" value="f98660" />
+        <option name="FILESTATUS_UNKNOWN" value="f87171" />
         <option name="FILESTATUS_addedOutside" value="74c792" />
-        <option name="FILESTATUS_changelistConflict" value="f98660" />
+        <option name="FILESTATUS_changelistConflict" value="f87171" />
         <option name="FILESTATUS_modifiedOutside" value="6fb1e7" />
         <option name="FOLDED_TEXT_BORDER_COLOR" value="e4a452" />
         <option name="GUTTER_BACKGROUND" value="1b1b1b" />
@@ -31,7 +31,7 @@
         <option name="HTML_TAG_TREE_LEVEL4" value="7bc2c1"/>
         <option name="HTML_TAG_TREE_LEVEL3" value="8ad7a5"/>
         <option name="HTML_TAG_TREE_LEVEL2" value="dec573"/>
-        <option name="HTML_TAG_TREE_LEVEL1" value="ff9474"/>
+        <option name="HTML_TAG_TREE_LEVEL1" value="fb7d7d"/>
         <option name="HTML_TAG_TREE_LEVEL0" value="ed9fc4"/>
         <option name="INDENT_GUIDE" value="353535" />
         <option name="INFORMATION_HINT" value="263645" />
@@ -54,7 +54,7 @@
         <option name="VCS_ANNOTATIONS_COLOR_2" value="283232" />
         <option name="VCS_ANNOTATIONS_COLOR_3" value="2c3730" />
         <option name="VCS_ANNOTATIONS_COLOR_4" value="3a3425" />
-        <option name="VCS_ANNOTATIONS_COLOR_5" value="3a2723" />
+        <option name="VCS_ANNOTATIONS_COLOR_5" value="422323" />
         <option name="WHITESPACES" value="c6c6c6" />
         <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="818181" />
     </colors>
@@ -76,7 +76,7 @@
         </option>
         <option name="BAD_CHARACTER">
             <value>
-                <option name="EFFECT_COLOR" value="bf6a50" />
+                <option name="EFFECT_COLOR" value="db5454" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -107,7 +107,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="3a2723" />
+                <option name="BACKGROUND" value="422323" />
             </value>
         </option>
         <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -134,7 +134,7 @@
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="f98660" />
+                <option name="FOREGROUND" value="f87171" />
             </value>
         </option>
         <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -171,13 +171,13 @@
         </option>
         <option name="CONSOLE_RED_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="ff9474" />
+                <option name="FOREGROUND" value="fb7d7d" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="CONSOLE_RED_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="f98660" />
+                <option name="FOREGROUND" value="f87171" />
             </value>
         </option>
         <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -450,7 +450,7 @@
         <option name="DEFAULT_INVALID_STRING_ESCAPE">
             <value>
                 <option name="FOREGROUND" value="818181" />
-                <option name="EFFECT_COLOR" value="bf6a50" />
+                <option name="EFFECT_COLOR" value="db5454" />
                 <option name="EFFECT_TYPE" value="2" />
             </value>
         </option>
@@ -539,7 +539,7 @@
         <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" baseAttributes="TEXT" />
         <option name="DEFAULT_VALID_STRING_ESCAPE">
             <value>
-                <option name="FOREGROUND" value="f98660" />
+                <option name="FOREGROUND" value="f87171" />
             </value>
         </option>
         <option name="DELETED_TEXT_ATTRIBUTES">
@@ -551,14 +551,14 @@
         </option>
         <option name="DIFF_CONFLICT">
             <value>
-                <option name="BACKGROUND" value="3a2723" />
-                <option name="ERROR_STRIPE_COLOR" value="bf6a50" />
+                <option name="BACKGROUND" value="422323" />
+                <option name="ERROR_STRIPE_COLOR" value="db5454" />
             </value>
         </option>
         <option name="DIFF_DELETED">
             <value>
-                <option name="BACKGROUND" value="3a2723" />
-                <option name="ERROR_STRIPE_COLOR" value="bf6a50" />
+                <option name="BACKGROUND" value="422323" />
+                <option name="ERROR_STRIPE_COLOR" value="db5454" />
             </value>
         </option>
         <option name="DIFF_INSERTED">
@@ -580,9 +580,9 @@
         </option>
         <option name="ERRORS_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="bf6a50" />
+                <option name="EFFECT_COLOR" value="db5454" />
                 <option name="EFFECT_TYPE" value="2" />
-                <option name="ERROR_STRIPE_COLOR" value="bf6a50" />
+                <option name="ERROR_STRIPE_COLOR" value="db5454" />
             </value>
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -605,7 +605,7 @@
         </option>
         <option name="GHERKIN_REGEXP_PARAMETER">
             <value>
-                <option name="FOREGROUND" value="f98660" />
+                <option name="FOREGROUND" value="f87171" />
             </value>
         </option>
         <option name="GO_BUILTIN_CONSTANT">
@@ -809,7 +809,7 @@
         </option>
         <option name="JS.REGEXP">
             <value>
-                <option name="FOREGROUND" value="f98660" />
+                <option name="FOREGROUND" value="f87171" />
             </value>
         </option>
         <option name="LINE_FULL_COVERAGE">
@@ -820,7 +820,7 @@
         </option>
         <option name="LINE_NONE_COVERAGE">
             <value>
-                <option name="FOREGROUND" value="f98660" />
+                <option name="FOREGROUND" value="f87171" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -841,7 +841,7 @@
         </option>
         <option name="LOG_ERROR_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="bf6a50" />
+                <option name="FOREGROUND" value="db5454" />
             </value>
         </option>
         <option name="LOG_WARNING_OUTPUT">
@@ -927,7 +927,7 @@
         </option>
         <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
             <value>
-                <option name="EFFECT_COLOR" value="bf6a50" />
+                <option name="EFFECT_COLOR" value="db5454" />
                 <option name="EFFECT_TYPE" value="3" />
             </value>
         </option>
@@ -1064,8 +1064,8 @@
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ff9474" />
-                <option name="ERROR_STRIPE_COLOR" value="ff9474" />
+                <option name="FOREGROUND" value="fb7d7d" />
+                <option name="ERROR_STRIPE_COLOR" value="fb7d7d" />
             </value>
         </option>
         <option name="TS.CLASS">
@@ -1105,7 +1105,7 @@
         </option>
         <option name="UNMATCHED_BRACE_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="bf6a50" />
+                <option name="FOREGROUND" value="db5454" />
             </value>
         </option>
         <option name="VELOCITY_SCRIPTING_BACKGROUND">
@@ -1133,7 +1133,7 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="bf6a50" />
+                <option name="FOREGROUND" value="db5454" />
             </value>
         </option>
         <option name="XML_TAG">
