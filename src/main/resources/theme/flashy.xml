@@ -643,6 +643,12 @@
                 <option name="FOREGROUND" value="6fb1e7" />
             </value>
         </option>
+        <option name="GO_LOCAL_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="GO_LOCAL_FUNCTION_CALL">
             <value>
                 <option name="FOREGROUND" value="6fb1e7" />
@@ -657,6 +663,18 @@
             <value>
                 <option name="FOREGROUND" value="c6c6c6" />
                 <option name="FONT_TYPE" value="1" />
+            </value>
+        </option>
+        <option name="GO_PACKAGE_EXPORTED_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="GO_PACKAGE_LOCAL_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FONT_TYPE" value="2" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE">
