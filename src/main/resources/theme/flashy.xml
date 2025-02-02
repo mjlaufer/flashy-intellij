@@ -656,6 +656,7 @@
         <option name="GO_PACKAGE">
             <value>
                 <option name="FOREGROUND" value="c6c6c6" />
+                <option name="FONT_TYPE" value="1" />
             </value>
         </option>
         <option name="GO_SHADOWING_VARIABLE">
