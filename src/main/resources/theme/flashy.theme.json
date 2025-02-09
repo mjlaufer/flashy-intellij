@@ -33,6 +33,7 @@
         "yellowDiff": "#3a3425",
         "greenDiff": "#2c3730",
         "cyanDiff": "#283232",
+        "cyanDiffBright": "#354545",
         "blueDiff": "#263645"
     },
     "icons": {
@@ -329,8 +330,8 @@
             }
         },
         "SearchMatch": {
-            "startBackground": "orange",
-            "endBackground": "orange"
+            "startBackground": "yellowBright",
+            "endBackground": "yellowBright"
         },
         "SearchOption.selectedBackground": "yellowBright",
         "Slider.tickColor": "fg2",
