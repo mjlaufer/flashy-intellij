@@ -102,7 +102,7 @@
             "Mnemonic.iconForeground": "bg1"
         },
         "Borders": {
-            "color": "bg1",
+            "color": "bg3",
             "ContrastBorderColor": "bg3"
         },
         "Button": {
