@@ -32,7 +32,7 @@
         <option name="HTML_TAG_TREE_LEVEL3" value="8ad7a5"/>
         <option name="HTML_TAG_TREE_LEVEL2" value="dec573"/>
         <option name="HTML_TAG_TREE_LEVEL1" value="fb7d7d"/>
-        <option name="HTML_TAG_TREE_LEVEL0" value="ed9fc4"/>
+        <option name="HTML_TAG_TREE_LEVEL0" value="f998c7"/>
         <option name="INDENT_GUIDE" value="353535" />
         <option name="INFORMATION_HINT" value="263645" />
         <option name="LINE_NUMBERS_COLOR" value="818181" />
@@ -150,7 +150,7 @@
         </option>
         <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="ed9fc4" />
+                <option name="FOREGROUND" value="f998c7" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
@@ -977,7 +977,7 @@
         </option>
         <option name="OC.OVERLOADED_OPERATOR">
             <value>
-                <option name="FOREGROUND" value="ed9fc4" />
+                <option name="FOREGROUND" value="f998c7" />
                 <option name="FONT_TYPE" value="1" />
             </value>
         </option>
